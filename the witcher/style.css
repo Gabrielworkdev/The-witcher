@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-image: url(/assets/the\ witcher\ hell.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.menuHeader {
+    display: flex;
+    align-items: center;
+}
+
+.menuList{
+  color: white;
+  font-size: 18px;
+  margin-left: 370px;
+    
+}
+.item-Menu{
+    margin-left: 50px;
+    display: inline;
+}
+
+p{
+    
+    color: white;
+    margin-left: 40px;
+}
+
+.projeto-vermelho {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+
+
+}
+
+.img-simbolo {
+    margin-left: 16px;
+}
+
+.text {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.imagem-center {
+
+    text-align: center;
+    opacity: 1;
+}
+
+.imgem {
+   height: 100vh;
+   
+}
+
+.hip{
+
+    height: auto;
+    position: relative;
+    top: -35%;
+    margin-left: 15px;
+    
+   
+}
+.botao {
+
+    width: 338px;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%,-50%);
+    background-color: rgb(221, 19, 19);
+    color: white;
+    font-size: 16px;
+    padding: 20px 12px;
+    border-radius: 40px;
+    cursor: pointer;
+    
+}
+
+
+.img {
+    margin-bottom: 0;
+    margin-top: -100%;
+    width: 250px;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%,-50%);
+}
